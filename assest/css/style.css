@@ -1,2 +1,105 @@
 /**Css Style
 */
+
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #007bff;
+    transition: 0.5s;
+  }
+  
+  a:hover, a:active, a:focus {
+    color: #0b6bd3;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+
+/*
+  -Header
+*/
+
+#head {
+    height: 80px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 20px 0;
+    background: #34495e;
+    box-shadow: 0px 0px 100px rgba(127, 137, 161, 0.9);
+    color: #ecf0f1;
+    
+  }
+
+#head .title-nav h1 {
+    display: inline;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ecf0f1;
+    position: relative;
+    white-space: nowrap;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+#head .title-nav img {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+}
+  
+/*
+- Navigation Menu
+*/
+
+.main-nav, .main-nav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .main-nav > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+  }
+  
+  .main-nav a {
+    display: inline;
+    color: #ecf0f1;
+    padding: 25px 15px;
+    transition: 0.3s;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    vertical-align: top;
+    text-decoration: none;
+  }
+  
+  .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
+    color: #34495e;
+    background-color: #ecf0f1;
+    text-decoration: none;
+  }
