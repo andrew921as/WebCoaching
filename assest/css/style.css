@@ -104,7 +104,26 @@ body {
     text-decoration: none;
   }
 
- .intro{
-   margin-top: 30px auto;
+/* 
+  - Intro
+*/
 
+ #intro {
+   margin-top: 80px;
  }
+
+ /*
+ .bgIntro img {
+   width: 100%;
+  height: 500px;
+}
+
+ .bgIntro img {
+   position: absolute;
+   top: 0;
+   left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+ }
+ */
