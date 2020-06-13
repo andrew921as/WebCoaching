@@ -99,7 +99,7 @@ body {
   }
   
   .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
-    color: #34495e;
+    color: black;
     background-color: #ecf0f1;
     text-decoration: none;
   }
