@@ -104,7 +104,6 @@ body {
     text-decoration: none;
   }
 
- .intro{
-   margin-top: 30px auto;
-
- }
+#intro{
+  margin-top: 80px;
+}
