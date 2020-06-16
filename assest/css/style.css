@@ -2,18 +2,18 @@
 */
 
 body {
-    background: #fff;
+    background-color: #F8F9FA;
     color: #444;
     font-family: "Open Sans", sans-serif;
   }
   
   a {
-    color: #007bff;
+    color: #F8F9FA;
     transition: 0.5s;
   }
   
   a:hover, a:active, a:focus {
-    color: #0b6bd3;
+    color: #F8F9FA;
     outline: none;
     text-decoration: none;
   }
@@ -32,7 +32,7 @@ body {
 
 
 /*
-  -Header
+  -Navigation Menu
 */
 
 .main-nav {
@@ -40,19 +40,14 @@ body {
 }
 
 .navbar-color {
+  color: #F8F9FA;
   background-color: #343A40;
   box-shadow: 0px 1px 10px black;
 }
-  
+
 /*
-- Navigation Menu
+  - Intro
 */
-
-
-
-  /*
-   - Intro
-  */
 
  .background-intro {
     width: 100%;
@@ -79,4 +74,31 @@ body {
    position: absolute;
    bottom: 0;
    width: 100%;
+ }
+
+ /*
+  - Contact
+ */
+
+ .social-net {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .social-links ul li{
+   list-style: none;
+   display: inline-block;
+ }
+
+ /*
+  - Footer
+ */
+
+ .credits {
+  margin-top: 30px;
  }
