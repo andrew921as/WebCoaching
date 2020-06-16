@@ -107,3 +107,10 @@ body {
 #intro{
   margin-top: 80px;
 }
+li{
+  list-style: none;
+}
+#social-net li{
+  list-style: none;
+  display: inline;
+}
