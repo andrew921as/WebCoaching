@@ -95,6 +95,17 @@ body {
     box-shadow: 0px 2px 10px black;
  }
 
+ /*
+  - Blog
+ */
+
+.blog_image {
+  background-image: url(../images/book4K.jpg); 
+  background-size: cover; 
+  width: 230px; 
+  height: 500px; 
+  background-position: -200px 0px;
+}
 
  /*
   - Contact
