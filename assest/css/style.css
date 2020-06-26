@@ -94,8 +94,13 @@ body {
  .glow:hover {
     box-shadow: 0px 2px 10px black;
  }
-
-
+/*
+  - Galery
+ */
+.galeryTitle{
+  position: relative;
+  text-align: center;
+}
  /*
   - Contact
  */
